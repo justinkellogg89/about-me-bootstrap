@@ -2,3 +2,16 @@
     width: 700px;
     margin: 0 auto;
 }
+
+.contact-title {
+    color: dodgerblue;
+    font-style: bold;
+}
+
+body {
+    background-image: url(https://wallpaperplay.com/walls/full/c/e/e/180299.jpg);
+  }
+
+nav {
+    background-color: dodgerblue;
+}
