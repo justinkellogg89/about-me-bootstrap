@@ -4,14 +4,31 @@
 }
 
 .contact-title {
-    color: dodgerblue;
+    color: black;
     font-style: bold;
+    text-align: center;
 }
 
 body {
-    background-image: url(https://wallpaperplay.com/walls/full/c/e/e/180299.jpg);
+    background-image: url(https://www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg);
   }
 
 nav {
     background-color: dodgerblue;
+}
+
+.portfolio-h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background: white;
+    margin-top: 15px;
+    position: relative;
+}
+
+.projectimages {
+    margin-bottom: 20px;
+    position: relative;
 }
