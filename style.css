@@ -26,9 +26,15 @@ nav {
     background: white;
     margin-top: 15px;
     position: relative;
+    padding: 10px;
 }
 
 .projectimages {
     margin-bottom: 20px;
     position: relative;
+}
+
+#aboutmeimg {
+    float: left;
+    margin-right: 10px;
 }
