@@ -1,40 +1,52 @@
-.container {
-    width: 700px;
+body {
+    background-image: url(https://www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg);
+}
+
+nav {
+    background-color: dodgerblue;
+}  
+
+#aboutmeimg {
+    float: left;
+    margin-right: 10px;
+}
+
+.project-container {
+    position: relative;
+    width: auto;
     margin: 0 auto;
+}
+
+.box {
+    background: white;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.portfolio-h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.projectimages {
+    margin-bottom: 20px;
+}
+
+.overlay {
+    bottom: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;  
 }
 
 .contact-title {
     color: black;
     font-style: bold;
     text-align: center;
-}
-
-body {
-    background-image: url(https://www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg);
-  }
-
-nav {
-    background-color: dodgerblue;
-}
-
-.portfolio-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.box {
-    background: white;
-    margin-top: 15px;
-    position: relative;
-    padding: 10px;
-}
-
-.projectimages {
-    margin-bottom: 20px;
-    position: relative;
-}
-
-#aboutmeimg {
-    float: left;
-    margin-right: 10px;
 }
