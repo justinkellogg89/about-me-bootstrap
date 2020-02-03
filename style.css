@@ -11,7 +11,7 @@ nav {
     margin-right: 10px;
 }
 
-.project-container {
+.container {
     position: relative;
     width: auto;
     margin: 0 auto;
@@ -31,11 +31,17 @@ nav {
 }
 
 .projectimages {
-    margin-bottom: 20px;
+    margin: 10px;
+
+}
+
+.image-container {
+    position: relative;
+    width: 100;
 }
 
 .overlay {
-    bottom: 0;
+    bottom: 5%;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     color: white;
