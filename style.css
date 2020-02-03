@@ -14,7 +14,6 @@ nav {
 .container {
     position: relative;
     width: auto;
-    margin: 0 auto;
 }
 
 .box {
@@ -23,7 +22,7 @@ nav {
     padding: 10px;
 }
 
-.portfolio-h1 {
+#portfolio-h1 {
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
@@ -32,12 +31,6 @@ nav {
 
 .projectimages {
     margin: 10px;
-
-}
-
-.image-container {
-    position: relative;
-    width: 100;
 }
 
 .overlay {
@@ -55,4 +48,14 @@ nav {
     color: black;
     font-style: bold;
     text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+.overlay {
+    width: 60%;
+}
+.projectimages{
+    left: 20%;
+}
+
 }
