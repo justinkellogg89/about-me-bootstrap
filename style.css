@@ -55,7 +55,12 @@ nav {
     width: auto;
 }
 .projectimages{
-    left: 20%;
+    left: 15%;
+}
+
+#aboutmeimg {
+    width: 150px;
+    height: 150px;
 }
 
 }
